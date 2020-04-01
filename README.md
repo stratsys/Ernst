@@ -49,7 +49,7 @@ Layout is not always a pure CSS problem. Sometimes you need some scripting to he
 
 ## FAQ
 
-> Isn't there already many similar projects?
+> Aren't there already many similar projects?
 
 Yes, for example [Elix](https://component.kitchen/elix) which has the same driving philosophy. However in their case, they are building it around Web Components and Evergreen browsers. This project focuses on Custom Elements only in order to support legacy browsers as much as possible. Legacy browser support is still a large factor for many applications, and Ernst intends to serve as a drop-in replacement for any current solutions out there, so high compatibility is a key factor.
 
