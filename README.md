@@ -15,7 +15,7 @@ In order to spring-clean, you will need the right tools for it. Ernst offers com
 The web is an enormous place and the surrounding context for each project is broad and unique. By making these components as easy to use as possible and straight to the point, we hope to fill the gap where other solutions don't feel satisfactory. Ernst also strives to support legacy, which in theory could go back as far as IE8 with the right amounts of polyfills. 
 
 ## Close adherence to web standards
-Many components will be direct implementations of HTML standard or WAI-ARIA authoring practices. This is to ensure that they can in fact as a drop-in replacement and so you can expect them to behave as standard HTML elements. This will also be the reason why the scope of each component will be limited. They aim to solve the most basic and universal needs for everyone. If that is not quite enough, then that's where the extendable part comes into play. You can always the components as basis to add the final missing piece you need for your project.
+Many components will be direct implementations of HTML standard or WAI-ARIA authoring practices. This is to ensure that they can in fact as a drop-in replacement and so you can expect them to behave as standard HTML elements. This will also be the reason why the scope of each component will be limited. They aim to solve the most basic and universal needs for everyone. If that is not quite enough, then that's where the extendable part comes into play. You can always use the components as basis to add the final missing piece you need for your project.
 
 
 ## Get your hands dirty and see for yourself
