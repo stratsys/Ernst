@@ -20,7 +20,7 @@ Many components will be direct implementations of HTML standard or WAI-ARIA auth
 
 ## Get your hands dirty and see for yourself
 
-(Whoops, we don't have any good way on how to use the components yet, stay tuned for that!)
+*(Whoops, we don't have any good way on how to use the components yet, stay tuned for that!)*
 
 Take a look into the our collection of components and see how they can help you with your project!
 
@@ -32,7 +32,7 @@ CSS transitions and animations has it limits, these will help you with some comm
 
 ### Input
 
-Normlized inputs with proper styling, custom content and accessibility, finally!
+Normlized, accessible inputs with proper styling and custom content, finally!
 
 * `<input-color/>`
 * `<input-date/>`
@@ -41,7 +41,7 @@ Normlized inputs with proper styling, custom content and accessibility, finally!
 
 ### Layout
 
-Layout is not always a pure CSS problem. Sometimes you need some scripting to help you out, other times there are a great number of accessibility concers that needs to be addressed.
+Layout is not always a pure CSS problem. Sometimes you need some scripting to help you out, other times there are a great number of accessibility concerns that needs to be addressed.
 
 * `<layout-modal/>`
 * `<layout-sticky/>`
