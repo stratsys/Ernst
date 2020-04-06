@@ -1,4 +1,11 @@
-# Ernst Components — Extendable Robust Native-like Standard Components
+# Ernst - <u>E</u>xtendable <u>R</u>obust <u>N</u>ative-like <u>S</u>tandard Componen<u>t</u>s
+
+-- Indie flower
+-- Caveat
+-- Permanent marker
+-- Kalam
+-- Patrick Hand
+
 
 [Jump to usage](#Get-your-hands-dirty-and-see-for-yourself)
 
@@ -51,7 +58,7 @@ Layout is not always a pure CSS problem. Sometimes you need some scripting to he
 
 > Aren't there already many similar projects?
 
-Yes, for example [Elix](https://component.kitchen/elix) which has the same driving philosophy. However in their case, they are building it around Web Components and Evergreen browsers. This project focuses on Custom Elements only in order to support legacy browsers as much as possible. Legacy browser support is still a large factor for many applications, and Ernst intends to serve as a drop-in replacement for any current solutions out there, so high compatibility is a key factor.
+Yes, for example [Elix](https://component.kitchen/elix) which has the same driving philosophy. However in their case, they are building it around Web Components and Evergreen browsers. Ernst focuses on Custom Elements only in order to support legacy browsers as much as possible. Legacy browser support is still a large factor for many applications, and Ernst intends to serve as a drop-in replacement for any current solutions out there, so high compatibility is a key factor.
 
 > Why are you using the old deprecated V0 version of Custom Elements?
 
@@ -60,6 +67,10 @@ Similar to the previous answer, the main focus of Ernst is to bring all current 
 > But that's what build tools are for, so you don't have to think about that stuff!
 
 True, but not all projects have build tools setup for their websites and applications. By adding that as a requirement, the entry level will increase and thus slowing down the adoption rate. The end goal is to raise the general web experience and increase accessibility as much as possible.
+
+> How will you handle migration and breaking changes?
+
+Custom Elements poses the same challenges as native Html5 elements, which is the ubiquitous nature of them. Once in place and used, it will become harder and harder to refactor. If you are not in 100% control of your content, there may be implicit hard dependencies on the singleton nature of the custom elements. This is another reason for why the scope of each element will be quite small and constrained, and focus more on enable the implementations than offer a complete full implementations of every possible cases. It is in the same manner as [The Extensible Web Manifesto](https://extensiblewebmanifesto.org/), provide a foundation to build upon. There will however be breaking changes regardless (nothing is perfect out-of-the-box), so thats is why each element are made in isolation of each other, and can easily be extended or renamed. More to come about this, but be assured that this is always an active issue that Ernst will be aware of.
 
 > Is anyone using these components in production yet?
 
