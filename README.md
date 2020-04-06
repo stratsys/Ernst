@@ -1,11 +1,4 @@
-# Ernst - <u>E</u>xtendable <u>R</u>obust <u>N</u>ative-like <u>S</u>tandard Componen<u>t</u>s
-
--- Indie flower
--- Caveat
--- Permanent marker
--- Kalam
--- Patrick Hand
-
+# Ernst - Extendable Robust Native-like Standard Components
 
 [Jump to usage](#Get-your-hands-dirty-and-see-for-yourself)
 
